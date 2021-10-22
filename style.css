@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+font-family: 'Ubuntu', sans-serif;
+color: white;
+}
+
+html {
+  /* background: url(bg.mp4) no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#logo{
+  display: flex;
+  justify-content: center;
+  background-color: red;
+
+}
+img{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 7.5vh;
+}
+
+body {
+overflow: hidden;
+width: 100%;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 20vh;
+}
+
+.countdownBx{
+position: relative;
+display: flex;
+flex-direction: column;
+/* background-color: red; */
+justify-content: center;
+top: 10vh;
+}
+
+h2 {
+font-size: 80px;
+font-family: 'Righteous', cursive;
+text-align: center;
+}
+
+h3 {
+  position: relative;
+  font-size: 30px;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  top: 5vh;
+}
+
+p {
+  position: relative;
+  top: 7.5vh;
+  font-size: 15px;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+span {
+font-size: 50px;
+position: relative;
+text-align: center;
+top: 41%;
+}
+
+.countdown{
+position: relative;
+display: flex;
+flex-direction: row;
+/* background-color: yellow; */
+top: 10px;
+justify-content: center;
+left: 50px;
+bottom: 50px;
+}
+
+.countdown div{
+  width: 200px;
+  text-align: center;
+
+}
+.digits{
+  display: flex;
+  font-size: 40px;
+}
+#day{}
+#hour{}
+#minute{}
+#second{}
+
+.applyButton {
+  position: relative;
+  left: 40%;
+  top: 45vh;
+  /* margin-top: 38px; */
+  /* margin-left: 105px; */
+  width: 20%;
+  height: 50px;
+  background: #e100ff 0% 0% no-repeat padding-box;
+  box-shadow: 2px 3px 6px #00000029;
+  border-radius: 52px;
+  opacity: 1;
+  color:rgb(255, 255, 255);
+  font-size: 23px;
+  cursor: pointer;
+  /* border-color: white; */
+}
+
+.sns {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.snsElements {
+  position: relative;
+  left: 38%;
+  top: 27.5vh;
+  margin: 1%;
+  /* margin-top: 38px; */
+  /* margin-left: 105px; */
+  width: 10%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: #f7d4fb 0% 0% no-repeat padding-box;
+  box-shadow: 2px 3px 6px #00000029;
+  border-radius: 52px;
+  opacity: 1;
+  color:rgb(2, 2, 2);
+  font-size: 23px;
+  cursor: pointer;
+  /* border-color: white; */
+}
+
+@media (max-width: 840px)  {
+  h2 {
+    font-size: 35px;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+  }
+  img{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+      top: 50px;
+  }
+
+  body {
+    overflow: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  span {
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    top: 70%;
+  }
+  .digits{
+    display: flex;
+    font-size: 30px;
+    position: relative;
+    /* top: -80px; */
+  }
+  .countdown div{
+    width: 80px;
+    text-align: center;
+  }
+  .countdown{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* background-color: yellow; */
+    top: -20px;
+    justify-content: center;
+    left: 20px;
+  }
+  .slogan {
+  position: absolute;
+  top: 80px;
+  font-size: 20px;
+  }
+
+  .countdownBx > p{
+    position: absolute;
+    top: 200px;
+  }
+
+
+  .applyButton {
+    position: relative;
+    left: 40%;
+    top: 380px;
+    /* margin-top: 38px; */
+    /* margin-left: 105px; */
+    width: 20%;
+    height: 50px;
+    background: #e100ff 0% 0% no-repeat padding-box;
+    box-shadow: 2px 3px 6px #00000029;
+    border-radius: 52px;
+    opacity: 1;
+    color:rgb(255, 255, 255);
+    font-size: 3vw;
+    /* border-color: white; */
+  }
+  .sns {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .snsElements {
+    margin: 0%;
+    margin-top: 5px;
+    position: relative;
+    left: 40%;
+    top: 400px;
+    /* margin-top: 38px; */
+    /* margin-left: 105px; */
+    width: 20%;
+    height: 50px;
+    background: #f7d4fb 0% 0% no-repeat padding-box;
+    box-shadow: 2px 3px 6px #00000029;
+    border-radius: 52px;
+    opacity: 1;
+    color:rgb(0, 0, 0);
+    font-size: 3vw;
+    /* border-color: white; */
+  }
+
+
+  .mobileHidden {
+    visibility: hidden;
+  }
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
